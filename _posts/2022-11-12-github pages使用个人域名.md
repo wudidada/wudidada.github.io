@@ -23,10 +23,10 @@ github pages默认情况下域名为`<user>.github.io`，可以修改为自己�
 	- [**建议**]修改构建来源，让github自动创建，之后再该回去
 - 如果个人域名没有ssl证书，则取消`Enforce HTTPS`勾选
   
-  ![image-20221112132031586](https://jusbin.oss-cn-beijing.aliyuncs.com/image-20221112132031586.png){:height 823, :width 780}
+  ![image-20221112132031586](/assets/image-20221112132031586.png){:height 823, :width 780}
 ## 修改域名解析
 
-![image-20221112132612660](https://jusbin.oss-cn-beijing.aliyuncs.com/image-20221112132612660.png)
+![image-20221112132612660](/assets/image-20221112132612660.png)
 
 增加一条域名解析，类型为`CNAME`，使得相应的域名指向之前的github pages域名。
 ## 查看是否解析成功
@@ -35,7 +35,7 @@ github pages默认情况下域名为`<user>.github.io`，可以修改为自己�
 dig www.jusbin.cn
 ```
 
-![image-20221112135652423](https://jusbin.oss-cn-beijing.aliyuncs.com/image-20221112135652423.png)
+![image-20221112135652423](/assets/image-20221112135652423.png)
 
 能从个人域名解析出github pages的域名，说明一切正常。
 
